@@ -41,11 +41,11 @@ Right Shift (>>)
 
 In addition to basic operators, bitwise logic can also be used to manipulate individual bits using bit masking techniques:
 
-Set a Bit: To set the k-th bit of a number (make it 1):
+🔸Set a Bit: To set the k-th bit of a number (make it 1):
 
 number = number | (1 << k);
 
-Reset a Bit: To reset the k-th bit (make it 0):
+🔸Reset a Bit: To reset the k-th bit (make it 0):
 
 number = number & ~(1 << k);
 
